@@ -28,7 +28,7 @@ public class Main {
     public List<Customer> getCustomers() {
         return customerRepository.findAll();
     }
-
+    System.out.println("Hello world!");
     record NewCustomerRequest(
             String name,
             String email,
